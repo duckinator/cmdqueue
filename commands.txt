@@ -1,0 +1,11 @@
+# Create and start the container
+echo bastille create test 12.1-RELEASE 10.1.2.3
+echo bastille start test
+
+# Run commands
+echo bastille cmd test echo 'awoo'
+echo bastille cmd test sleep 300
+
+# Stop and destroy the container
+echo bastille stop test
+echo bastille destroy test
